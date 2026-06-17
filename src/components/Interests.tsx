@@ -19,7 +19,7 @@ const COL_LEFT: Card[] = [
 const COL_RIGHT: Card[] = [
   { id:'c2', num:'02', img:'/interest-noodles.png', alt:'Hotpot noodle dish',    label:'Noodles',     sublabel:'Trying every dish',          aspect:'1/1' },
   { id:'c4', num:'04', img:'/interest-gaming.png',  alt:'Elden Ring screenshot', label:'Video games', sublabel:'Elden Ring & more',          aspect:'4/5' },
-  { id:'c6', num:'06', img:'/interest-viola.png',   alt:'Playing viola',         label:'Music',       sublabel:'Viola — on break for now',   aspect:'3/2' },
+  { id:'c6', num:'06', img:'/interest-viola.png',   alt:'Playing viola',         label:'Music',       sublabel:'Viola / Music',   aspect:'3/2' },
 ];
 
 type LBState = { src: string; alt: string; label: string; sublabel: string } | null;
@@ -212,7 +212,7 @@ export default function Interests() {
           <Reveal delay={0.2} y={24} blur={8} duration={0.85}>
             <p className="mx-auto mt-4 text-black/48"
               style={{ fontSize: 'clamp(14px, 1.8vw, 17px)', lineHeight: 1.65, maxWidth: '34ch' }}>
-              Lego, noodles, building PCs, video games, photography, music, and anime. Viola on hold for now.
+              Lego, noodles, building PCs, video games, photography, music, and anime.
             </p>
           </Reveal>
         </div>
