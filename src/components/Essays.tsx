@@ -190,7 +190,7 @@ export default function Essays() {
       <div className="mx-auto w-full max-w-5xl py-24">
         <Reveal y={12} blur={6} scale={1} duration={0.7}>
           <div className="mb-8 flex items-center gap-3 text-[11px] uppercase tracking-[0.25em] text-black/38">
-            <span className="tabular-nums font-medium">04</span>
+            <span className="tabular-nums font-medium">05</span>
             <span className="h-px w-10 bg-black/15" />
             <span>Essays</span>
           </div>

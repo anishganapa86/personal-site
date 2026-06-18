@@ -191,7 +191,7 @@ export default function Content() {
       </Section>
 
       {/* 06 - CONTACT */}
-      <Section id="contact" index="06" label="Contact">
+      <Section id="contact" index="04" label="Contact">
         <Heading>Get in touch</Heading>
         <Reveal delay={0.2} y={28} blur={10}>
           <p className="mt-6 text-black/65" style={bodyStyle}>
